@@ -177,9 +177,9 @@ function makeresponsive(){
                     xlinearscale=xscale(stats,chosenxaxis);
                     xaxis=renderxaxes(xlinearscale,xaxis);
 //Update plot based on item selected to be plotted
-                circlesgroup=rendercircles(circlesgroup,xlinearscale,chosenxaxis,ylinearscale,chosenyaxis);
-                statesgroup=renderstates(statesgroup,xlinearscale,chosenxaxis,ylinearscale,chosenyaxis);
-                circlesgroup=updatetooltip(chosenxaxis,chosenyaxis,circlesgroup);
+                    circlesgroup=rendercircles(circlesgroup,xlinearscale,chosenxaxis,ylinearscale,chosenyaxis);
+                    statesgroup=renderstates(statesgroup,xlinearscale,chosenxaxis,ylinearscale,chosenyaxis);
+                    circlesgroup=updatetooltip(chosenxaxis,chosenyaxis,circlesgroup);
 //Update x axis labels based on item selected to be plotted
                     if (chosenxaxis==='poverty'){
                         povertylabel
@@ -220,9 +220,9 @@ function makeresponsive(){
                     ylinearscale=yscale(stats,chosenyaxis);
                     yaxis=renderyaxes(ylinearscale,yaxis);
 //Update plot based on item selected to be plotted
-                circlesgroup=rendercircles(circlesgroup,xlinearscale,chosenxaxis,ylinearscale,chosenyaxis);
-                statesgroup=renderstates(statesgroup,xlinearscale,chosenxaxis,ylinearscale,chosenyaxis);
-                circlesgroup=updatetooltip(chosenxaxis,chosenyaxis,circlesgroup);
+                    circlesgroup=rendercircles(circlesgroup,xlinearscale,chosenxaxis,ylinearscale,chosenyaxis);
+                    statesgroup=renderstates(statesgroup,xlinearscale,chosenxaxis,ylinearscale,chosenyaxis);
+                    circlesgroup=updatetooltip(chosenxaxis,chosenyaxis,circlesgroup);
 //Update y axis labels based on item selected to be plotted
                     if (chosenyaxis==='obesity'){
                         obeselabel
